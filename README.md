@@ -14,10 +14,10 @@ This iOSXCUITest template use [Cucumber](https://cucumber.io/) framework with [G
 - If you are not familiar with Gherkin, please refer <https://cucumber.io/docs/reference> for language concepts and its syntax.
 - Check your **Java JDK**, by run `java -v` in command prompt(Windows) or terminal(macOS). If you could see the version of java, then it has been installed, otherwise, please install it based on your operating system.**Make Sure you have set `JAVA_HOME` to `jdk` folder and `jdk\bin` to `PATH`.**
 - For **macOS**, please install **XCODE** from AppStore first, then install **homebrew** by opening terminal and run `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`. Once the installation finished, run `brew install node`
-- Make sure that you have maven installed by run `mvn -v` in command prompt(Windows) or terminal(macOS). If you could see the version of maven, then it has been installed, otherwise, please install it based on your operating system. (refer [here](https://maven.apache.org/install.html))
+- Make sure that you have maven installed by run `mvn -v` in terminal(macOS). If you could see the version of maven, then it has been installed, otherwise, please install it based on your operating system. (refer [here](https://maven.apache.org/install.html))
 - IDE requirement is [Intellij Idea](https://www.jetbrains.com/idea/); either the Ultimate or the Community one would be fine.
 ### XCUITest Configuration for iOS 9.3.x or Later
-(Credit to <https://www.youtube.com/watch?v=ySglJIrDVMQ&t=2071s> for the awesome tutorial of configure appium with XCUITest)
+(Credit to <https://www.youtube.com/watch?v=ySglJIrDVMQ&t=2071s> for the awesome tutorial of appium with XCUITest configuration)
 
 Because **apple** has disable UIAutomator for 9.3.x or later, the alternate way to test iOS with higher platform version is to use XCUITest with WebDriverAgent.
 - Open your terminal, and run
