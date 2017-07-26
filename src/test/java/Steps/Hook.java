@@ -57,6 +57,7 @@ public class Hook extends BaseUtil{
         cap.setCapability("app", app.getAbsolutePath());
         cap.setCapability("bundleId", bundleIdentifier);
         cap.setCapability("noReset", false);
+        cap.setCapability("showXcodeLog", true);
 
 		/*
 		 * More configuration, see https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md
