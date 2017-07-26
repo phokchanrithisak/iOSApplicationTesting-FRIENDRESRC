@@ -16,12 +16,12 @@ This iOSXCUITest template use [Cucumber](https://cucumber.io/) framework with [G
 - For **macOS**, please install **XCODE** from AppStore first, then install **homebrew** by opening terminal and run `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`. Once the installation finished, run `brew install node`
 - Make sure that you have maven installed by run `mvn -v` in command prompt(Windows) or terminal(macOS). If you could see the version of maven, then it has been installed, otherwise, please install it based on your operating system. (refer [here](https://maven.apache.org/install.html))
 - IDE requirement is [Intellij Idea](https://www.jetbrains.com/idea/); either the Ultimate or the Community one would be fine.
-### XCUITest Configuration for iOS 9.3.x and higher
-(Credit to <https://www.youtube.com/watch?v=ySglJIrDVMQ&t=2071s> for the awesome tutorial)
+### XCUITest Configuration for iOS 9.3.x or Later
+(Credit to <https://www.youtube.com/watch?v=ySglJIrDVMQ&t=2071s> for the awesome tutorial of configure appium with XCUITest)
 
-Because **apple** has disable UIAutomator for 9.3.x and higher, the alternate way to test iOS with higher platform version is to use XCUITest with WebDriverAgent.
+Because **apple** has disable UIAutomator for 9.3.x or later, the alternate way to test iOS with higher platform version is to use XCUITest with WebDriverAgent.
 - Open your terminal, and run
-  - `sudo npm install -g appium` to install appium (If you are not sure whether you have appium server installed or not, run `appium -v`, if you could see appium version, then it has been installed. Make sure that your appium version is higher that 1.6, otherwise, run `sudo npm install -g appium@1.6.5`. You can change @1.6.5 to the lattest version as desired)
+  - `sudo npm install -g appium` to install appium (If you are not sure whether you have appium server installed or not, run `appium -v`, if you could see appium version, then it has been installed. Make sure that your appium version is later that 1.6, otherwise, run `sudo npm install -g appium@1.6.5`. You can change @1.6.5 to the lattest version as desired)
   - `brew install ideviceinstaller`
   - `brew install carthage`
   - `npm install -g ios-deploy`
@@ -38,7 +38,7 @@ Because **apple** has disable UIAutomator for 9.3.x and higher, the alternate wa
     - run `open .`
    - On the opening Finder that pop up after running *open .*
     - You will see **WebDriverAgent.xcodeproj**, right click and open it with **XCode**
-    - **From now on, it requires interfaces to follow**. **_Follow_** this [youtube tutorial](https://www.youtube.com/watch?v=ySglJIrDVMQ&t=2071s)from [Tech Tock Tech](https://www.youtube.com/channel/UCaJA59vxBDS7smS81Gqf7KA) at minute of **19:52** onward.
+    - **From now on, it requires interfaces to follow**. **_Follow_** this [youtube tutorial](https://www.youtube.com/watch?v=ySglJIrDVMQ&t=2071s) from [Tech Tock Tech](https://www.youtube.com/channel/UCaJA59vxBDS7smS81Gqf7KA) at minute of **19:52** onward.
 After the **integration app** is built successfully. You are good to go.
   
 ### Getting Started
