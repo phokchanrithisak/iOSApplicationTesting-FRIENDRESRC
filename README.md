@@ -51,7 +51,7 @@ Let's get our hand dirty.
   - **copy** <https://github.com/chhatrachhorm/iOSXCUITest.git> into **Git Repository URL**
   - specify **Parent Directory** and **Directory Name** and click **clone**
 ### Template Exploration
-There should be **four packages** under `src\test\java` directory.
+There should be **five packages** under `src\test\java` directory.
 Each of them play a vital role.
 - `BaseUtil class` under **Base package** is written to declare `MobileDriver<IOSElement>`
 - **Features package** is to wrap all feature files which are used to describe _Behavorial Driven Developement_ concepts
