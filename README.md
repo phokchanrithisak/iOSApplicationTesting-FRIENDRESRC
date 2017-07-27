@@ -1,5 +1,5 @@
 # iOSXCUITest
-**KEEN Template** to automate iOS Application **_Test_** with [Appium](http://appium.io/), [Selenium](http://www.seleniumhq.org/), [Cucumber](https://cucumber.io/), [TestNG](http://testng.org/doc/), [Junit Test](http://junit.org/junit4/) and [Apache Maven](https://maven.apache.org/).
+**KEEN Template** to automate iOS Application **_Test_** with [Appium](http://appium.io/), XCUITest, WebDriverAgent, [Selenium](http://www.seleniumhq.org/), [Cucumber](https://cucumber.io/), [TestNG](http://testng.org/doc/), [Junit Test](http://junit.org/junit4/) and [Apache Maven](https://maven.apache.org/).
 
 It **handles** almost all the headache in starting new automated testing project with `java` as the client library.
 **You just have to start coding, then *run* your _test framework_ from either _Intellij IDEA_ or _command prompt_ or 
@@ -12,7 +12,7 @@ By the help of [maven-cucumber-reporting](https://mvnrepository.com/artifact/net
 ### Prerequisite
 This iOSXCUITest template use [Cucumber](https://cucumber.io/) framework with [Gherkin](https://cucumber.io/docs/reference) to get the advantages of `.feature` files.
 - If you are not familiar with Gherkin, please refer <https://cucumber.io/docs/reference> for language concepts and its syntax.
-- Check your **Java JDK**, by run `java -v` in command prompt(Windows) or terminal(macOS). If you could see the version of java, then it has been installed, otherwise, please install it based on your operating system.**Make Sure you have set `JAVA_HOME` to `jdk` folder and `jdk\bin` to `PATH`.**
+- Check your **Java JDK**, by run `java -version` in command prompt(Windows) or terminal(macOS). If you could see the version of java, then it has been installed, otherwise, please install it based on your operating system.**Make Sure you have set `JAVA_HOME` to `jdk` folder and `jdk\bin` to `PATH`.**
 - For **macOS**, please install **XCODE** from AppStore first, then install **homebrew** by opening terminal and run `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`. Once the installation finished, run `brew install node`
 - Make sure that you have maven installed by run `mvn -v` in terminal(macOS). If you could see the version of maven, then it has been installed, otherwise, please install it based on your operating system. (refer [here](https://maven.apache.org/install.html))
 - IDE requirement is [Intellij Idea](https://www.jetbrains.com/idea/); either the Ultimate or the Community one would be fine.
